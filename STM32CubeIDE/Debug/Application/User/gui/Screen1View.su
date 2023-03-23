@@ -1,0 +1,12 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:14:13:Screen1View::~Screen1View()	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:40:6:virtual void Screen1View::tearDownScreen()	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:35:6:virtual void Screen1View::setupScreen()	0	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:14:13:virtual Screen1View::~Screen1View()	8	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:18:1:Screen1View::Screen1View()	24	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:378:6:bool Screen1View::checkCollide(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)	8	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:396:6:bool Screen1View::checkScorePoint(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:406:6:bool Screen1View::checkOutMap(int16_t, int16_t, int16_t, int16_t)	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:416:5:int Screen1View::randomNumberBetween(int, int)	12	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:46:6:virtual void Screen1View::handleTickEvent()	96	static

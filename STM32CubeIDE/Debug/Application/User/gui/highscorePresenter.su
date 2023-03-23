@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/highscore_screen/highscorePresenter.hpp:28:13:highscorePresenter::~highscorePresenter()	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/highscore_screen/highscorePresenter.cpp:10:6:virtual void highscorePresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/highscore_screen/highscorePresenter.hpp:28:13:virtual highscorePresenter::~highscorePresenter()	8	static
+../../TouchGFX/gui/include/gui/highscore_screen/highscorePresenter.hpp:28:13:virtual void* highscorePresenter::_ZThn4_N18highscorePresenterD1Ev()	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/TouchGFX/gui/src/highscore_screen/highscorePresenter.cpp:4:1:highscorePresenter::highscorePresenter(highscoreView&)	8	static

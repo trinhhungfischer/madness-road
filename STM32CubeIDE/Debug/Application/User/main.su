@@ -1,0 +1,17 @@
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:865:13:SPI5_Write	16	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:977:6:StartDefaultTask	24	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:261:6:SystemClock_Config	96	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:169:5:main	120	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:709:6:IOE_Init	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:718:6:IOE_ITConfig	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:730:6:IOE_Write	32	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:741:9:IOE_Read	32	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:754:10:IOE_ReadMultiple	24	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:763:6:IOE_Delay	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:891:6:LCD_IO_Init	8	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:901:6:LCD_IO_WriteData	16	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:917:6:LCD_IO_WriteReg	16	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:936:10:LCD_IO_ReadData	32	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:963:6:LCD_Delay	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:1029:6:HAL_TIM_PeriodElapsedCallback	0	static
+D:/Download/kstn/embedded_system/th3/touchfx/MyApplication/Core/Src/main.c:1046:6:Error_Handler	0	static

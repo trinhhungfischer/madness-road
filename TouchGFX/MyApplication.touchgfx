@@ -1,0 +1,556 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background2",
+            "Y": -320,
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "track4.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "background1",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "track4.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "car",
+            "X": 135,
+            "Y": 259,
+            "Width": 37,
+            "Height": 53,
+            "Filename": "redcar.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_0",
+            "X": 12,
+            "Y": -125,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_1",
+            "X": 12,
+            "Y": -44,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_2",
+            "X": 12,
+            "Y": -84,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_3",
+            "X": 200,
+            "Y": -44,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_4",
+            "X": 140,
+            "Y": -44,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_5",
+            "X": 78,
+            "Y": -44,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_6",
+            "X": 78,
+            "Y": -82,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_7",
+            "X": 140,
+            "Y": -82,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_8",
+            "X": 200,
+            "Y": -82,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_9",
+            "X": 200,
+            "Y": -127,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_10",
+            "X": 140,
+            "Y": -125,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "obstacle_11",
+            "X": 78,
+            "Y": -125,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "bullet3",
+            "X": 320,
+            "Y": 283,
+            "Width": 8,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 4.0,
+            "CenterY": 4.0,
+            "Radius": 4.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "bullet2",
+            "X": 320,
+            "Y": 283,
+            "Width": 8,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 4.0,
+            "CenterY": 4.0,
+            "Radius": 4.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "bullet1",
+            "X": 320,
+            "Y": 283,
+            "Width": 8,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 4.0,
+            "CenterY": 4.0,
+            "Radius": 4.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "bullet0",
+            "X": 320,
+            "Y": 283,
+            "Width": 8,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 4.0,
+            "CenterY": 4.0,
+            "Radius": 4.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 122,
+            "Y": 253,
+            "Width": 60,
+            "Height": 30,
+            "Color": {
+              "Red": 255
+            },
+            "StartX": 30.0,
+            "StartY": 30.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress1",
+            "X": 11,
+            "Y": 6,
+            "Width": 54,
+            "Height": 20,
+            "TextId": "__SingleUse_3VWX",
+            "Color": {
+              "Red": 51,
+              "Green": 255
+            },
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_small_text_progress_bg_round.png",
+            "IndicatorPositionWidth": 54,
+            "IndicatorPositionHeight": 20,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 163,
+            "Y": 6,
+            "Width": 47,
+            "Height": 16,
+            "TextId": "__SingleUse_JFME",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 83,
+            "Y": 6,
+            "Width": 54,
+            "Height": 16,
+            "TextId": "__SingleUse_A17J",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {},
+            "Wildcard2": {}
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "exitButton",
+            "X": 35,
+            "Y": 425,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_EFGJ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "retryButton",
+            "X": 35,
+            "Y": 348,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_B6D5",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "exit",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "exitButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Menu"
+            }
+          },
+          {
+            "InteractionName": "retry",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "retryButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Menu",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "track4.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "changescreen",
+            "X": 35,
+            "Y": 220,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "START",
+            "ReleasedColor": {
+              "Red": 247
+            },
+            "PressedColor": {
+              "Red": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "car",
+            "X": 102,
+            "Y": 80,
+            "Width": 37,
+            "Height": 53,
+            "Filename": "redcar.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 49,
+            "Y": 36,
+            "Width": 142,
+            "Height": 16,
+            "TextId": "__SingleUse_NDXU",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 21,
+            "Y": 10,
+            "Width": 199,
+            "Height": 26,
+            "TextId": "__SingleUse_FA8E",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "carName",
+            "X": 99,
+            "Y": 133,
+            "Width": 27,
+            "Height": 16,
+            "TextId": "__SingleUse_U660",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "HP",
+            "X": 35,
+            "Y": 160,
+            "Width": 28,
+            "Height": 16,
+            "TextId": "__SingleUse_TGXE",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPD",
+            "X": 99,
+            "Y": 160,
+            "Width": 38,
+            "Height": 16,
+            "TextId": "__SingleUse_W5EX",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BUL",
+            "X": 161,
+            "Y": 160,
+            "Width": 36,
+            "Height": 16,
+            "TextId": "__SingleUse_NKCG",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "FadeOut",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 100
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "InOut",
+              "Duration": 500,
+              "ActionComponent": "textArea1"
+            }
+          },
+          {
+            "InteractionName": "changeScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "changescreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "changescreen"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include <cmsis_os.h>",
+              "Code": "extern osMessageQueueId_t Queue2Handle;\t\r\nextern int32_t curCar;\r\nuint32_t count_2=osMessageQueueGetCount(Queue2Handle);\r\n\tif (count_2 < 2) {\r\n\t\tint32_t x = curCar;\r\n\t\tosMessageQueuePut(Queue2Handle,&x,0,10);\r\n\t}"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Menu",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_E01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0",
+  "CreatedBy": "4.20.0"
+}
