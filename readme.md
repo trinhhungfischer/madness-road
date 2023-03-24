@@ -1,8 +1,5 @@
-# STM32F429I_DISCO_REV_E01 TBS Version 3.0.4.
+# Madness Road
 
-Please note this TouchGFX Board Setup is only supported from TouchGFX 4.20.0. Configuration is done using CubeMX 6.5.0 based on STM32Cube FW_F4 V1.27.0 drivers. The default IDE is set to STM32CubeIDE, to change IDE open the STM32F429I_DISCO_REV_E01.ioc with CubeMX and select from the supported IDEs (EWARM from version 8.50.9, MDK-ARM, and STM32CubeIDE). Supports flashing of the STM32F429I_DISCO_REV_E01 board directly from TouchGFX Designer using GCC and STM32CubeProgrammer.Flashing the board requires STM32CubeProgrammer which can be downloaded from the ST webpage. 
+Madness Road là trò chơi thể loại đua xe tránh chướng ngại vật tính điểm với đồ họa 2D góc nhìn từ trên xuống.
 
-This TBS is configured for 320 x 240 pixels 16bpp screen resolution.  
-
-Performance testing can be done using the GPIO pins designated with the following signals: VSYNC_FREQ  - Pin PE2, RENDER_TIME - Pin PE3, FRAME_RATE  - Pin PE4, MCU_ACTIVE  - Pin PE5
- 
+Người chơi có nhiệm vụ điều khiển xe để né những chướng ngại vật (các con cừu) có trên đường bằng cách điều khiển xe sang trái, phải hoặc cho xe bay lên. Ngoài ra xe còn có thể bắn đạn theo hướng tia màu đỏ trước đầu xe để diệt cừu. Khi người chơi vượt qua hoặc tiêu diệt một con cừu (kể cả bằng cách tông vào nó) sẽ có thêm 1 điểm. Nếu không thể né/bắn chết cừu trước khi xe đụng phải, người chơi sẽ bị mất 1 mạng. Nếu mất hết mạng, trò chơi sẽ kết thúc.
